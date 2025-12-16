@@ -4,11 +4,11 @@
 function greaterNumber(numberOne , numberTwo) {
   
     if (numberOne > numberTwo) {
-        console.log(numberOne);
+        return numberOne;
     } else if (numberTwo > numberOne) {
-        console.log(numberTwo);
+        return numberTwo;
     } else {
-        console.log("Los dos números son iguales");
+        return "Los dos números son iguales";
     }
 }
 
